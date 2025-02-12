@@ -1,6 +1,6 @@
 Participants:
 Sistac Emilien
-Clément Gibert (le montagnard)
-Rami Taieb
+Clément Gibert
+Rami Taieb 
 Moise Raymond Fernandez
 

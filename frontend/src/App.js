@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     // Use the API URL from the environment variable, fallback to localhost for local development.
-    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const apiUrl = process.BACKEND_REACT || 'http://localhost:5000';
     fetch(`${apiUrl}/api/motorbikes`)
       .then(response => {
         if (!response.ok) {

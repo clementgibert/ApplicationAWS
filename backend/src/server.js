@@ -10,10 +10,10 @@ app.use(express.json());
 
 // Create MySQL connection using environment variables
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'shopuser',
-  password: process.env.DB_PASSWORD || 'shoppass',
-  database: process.env.DB_NAME || 'motorbike_shop'
+  host: process.DB_HOST || 'localhost',
+  user: process.DB_USER || 'shopuser',
+  password: process.DB_PASSWORD || 'shoppass',
+  database: process.DB_NAME || 'motorbike_shop'
 });
 
 // Connect to the database

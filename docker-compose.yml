@@ -5,6 +5,8 @@ services:
     build: ./frontend
     ports:
       - "3000:3000"
+    environment:
+      - BACKEND_REACT=${REACT_APP_API_URL}
     depends_on:
       - backend
     networks:
